@@ -212,10 +212,11 @@ h3 {
     background-color: #937a6c;
 }
 
-.global-newsletter .smallprint p {
+.global-newsletter .smallprint p,
+.global-newsletter .smallprint a {
     font-size: .9rem;
     max-width: 100%;
-    margin-top: 30px;
+    color: #6e6e6e;
 }
 
 
@@ -254,12 +255,14 @@ h3 {
         font-size: 1.5em;
     }
 
-    .banner-text h3, .global-newsletter p {
+    .banner-text h3,
+    .global-newsletter p {
         font-size: .9em;
     }
-    .global-newsletter .smallprint p {
+
+    .global-newsletter .smallprint p,
+    .global-newsletter .smallprint a {
         font-size: .5em;
-        margin-top: 0;
     }
 
     .banner-text h1 {
@@ -277,6 +280,7 @@ h3 {
     .banner-text button.shop-now-btn {
         font-size: .9em;
     }
+
     .newsletter-form input[type="email"] {
         width: 300px;
     }
