@@ -17,6 +17,7 @@ p {
 
 /* Logo *******************************************/
 .logo-banner {
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,7 +39,8 @@ p {
 
 }
 
-.message-banner p {
+
+.message-banner span,.message-banner p  {
     color: white;
     font-size: .9rem;
     line-height: 2.5rem;
@@ -47,6 +49,18 @@ p {
     text-align: center;
 }
 
+.message-banner.off-white{
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 60px;
+}
+
+.message-banner.off-white span{
+    color: black;
+}
 
 /* HERO banner **************************************/
 
@@ -121,7 +135,6 @@ h3 {
     font-size: 1.2em;
     cursor: pointer;
     border-radius: 5px;
-    font-weight: bold;
 }
 
 .banner-text button.shop-now-btn:hover {
