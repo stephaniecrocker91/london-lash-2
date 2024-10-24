@@ -36,7 +36,6 @@ p {
 
 .message-banner {
     background-color: black;
-
 }
 
 
@@ -65,9 +64,16 @@ p {
 /* HERO banner **************************************/
 
 .banner {
-    background-color: #fef5f2;
     display: flex; 
     height: 500px;
+}
+
+.overlay {
+    position: absolute;
+    top: 180px; /* Align to banner */
+    width: 100%; /* Full width */
+    height: 500px; 
+    background: linear-gradient(to right, rgba(0, 0, 0, 1) 50%, transparent 100%);
 }
 
 /* HERO banner img */
@@ -89,6 +95,7 @@ p {
     padding-left: 20px;
     align-self: center;
     width: 50%;
+    z-index: 1; 
 }
 
 .banner-text h2,
@@ -111,12 +118,12 @@ h3 {
     font-size: 2.5em;
     font-weight: bold;
     margin: 0;
-    color: #000;
+    color: #fff;
 }
 
 .banner-text h1.highlight {
     font-size: 2.5em;
-    color: #000;
+    color: #fff;
     margin-bottom: 20px;
 }
 
@@ -128,8 +135,8 @@ h3 {
 }
 
 .banner-text button.shop-now-btn {
-    background-color: #000;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
     padding: 12px 30px;
     border: none;
     font-size: 1.2em;
